@@ -1,0 +1,25 @@
+uuid: 0dc6e449-65a6-4c30-8002-2b903dab98ec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3e40f3a6-572c-4356-8b01-d9bf20da79d6'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: multimax
+theme: corporateclean
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:3e40f3a6-572c-4356-8b01-d9bf20da79d6'
+settings:
+  id: 'block_content:3e40f3a6-572c-4356-8b01-d9bf20da79d6'
+  label: Multimax
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: f181d47f-c4f7-4340-a9ba-81e0c136ca16
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:about_section:3f6e0820-3564-4d1d-9a83-b73502608eb8'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: aboutus
+theme: corporateclean
+region: hero_top
+weight: 0
+provider: null
+plugin: 'block_content:3f6e0820-3564-4d1d-9a83-b73502608eb8'
+settings:
+  id: 'block_content:3f6e0820-3564-4d1d-9a83-b73502608eb8'
+  label: 'About Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

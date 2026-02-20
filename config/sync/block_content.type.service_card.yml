@@ -1,0 +1,8 @@
+uuid: b2bc73d5-0995-47dc-89a9-099398452e36
+langcode: en
+status: true
+dependencies: {  }
+id: service_card
+label: 'Service Card'
+revision: false
+description: null

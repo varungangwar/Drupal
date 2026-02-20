@@ -1,0 +1,14 @@
+uuid: 2bb1334d-25c7-4a45-902e-b82eb74e9643
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+id: editor
+label: Editor
+weight: 4
+is_admin: null
+permissions:
+  - 'edit any article content'

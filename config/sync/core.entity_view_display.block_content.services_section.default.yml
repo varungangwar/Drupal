@@ -1,0 +1,52 @@
+uuid: 4850cdce-befb-43af-88d5-687b2be8110e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.services_section
+    - field.field.block_content.services_section.field_section_description
+    - field.field.block_content.services_section.field_section_ttitle
+    - field.field.block_content.services_section.field_service
+    - field.field.block_content.services_section.field_services
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.services_section.default
+targetEntityType: block_content
+bundle: services_section
+mode: default
+content:
+  field_section_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_section_ttitle:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_service:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_services:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

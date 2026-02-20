@@ -1,0 +1,50 @@
+uuid: 758ec429-7e03-4b06-abad-83be20b2684c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.service_field.field_description
+    - field.field.paragraph.service_field.field_icon
+    - field.field.paragraph.service_field.field_service_ttitle
+    - field.field.paragraph.service_field.field_subtitle
+    - paragraphs.paragraphs_type.service_field
+  module:
+    - text
+id: paragraph.service_field.default
+targetEntityType: paragraph
+bundle: service_field
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_icon:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_service_ttitle:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_subtitle:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

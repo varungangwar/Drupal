@@ -1,0 +1,8 @@
+uuid: d9d1efa1-a88e-4810-8834-9911bbebfe45
+langcode: en
+status: true
+dependencies: {  }
+name: 'Project Category'
+vid: project_category
+description: ''
+weight: 0

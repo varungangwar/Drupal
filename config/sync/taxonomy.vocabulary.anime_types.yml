@@ -1,0 +1,8 @@
+uuid: 469e64b8-597b-4e7e-9c81-b346364ffdcd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Anime types'
+vid: anime_types
+description: 'genre of different anime'
+weight: 0

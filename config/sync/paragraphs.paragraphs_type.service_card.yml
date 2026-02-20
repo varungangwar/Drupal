@@ -1,0 +1,10 @@
+uuid: bba7069a-213e-4b14-83a6-e7c0e5414019
+langcode: en
+status: true
+dependencies: {  }
+id: service_card
+label: 'Service Card'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

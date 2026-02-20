@@ -1,0 +1,24 @@
+uuid: 40013b12-536d-46f2-9f6e-f07554678e74
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.services_section
+    - field.storage.block_content.field_section_description
+  module:
+    - text
+id: block_content.services_section.field_section_description
+field_name: field_section_description
+entity_type: block_content
+bundle: services_section
+label: 'Section Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

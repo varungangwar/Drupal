@@ -1,0 +1,10 @@
+uuid: d4a62b72-2f03-4fb6-8573-8383f01e2e0a
+langcode: en
+status: true
+dependencies: {  }
+id: service_field
+label: 'Service Field'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
