@@ -5,4 +5,4 @@ dependencies: {  }
 id: service_card
 label: 'Service Card'
 revision: false
-description: null
+description: 'Defines an individual service item including image, title, description, and optional link.'

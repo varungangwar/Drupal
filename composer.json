@@ -16,6 +16,8 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/addtoany": "^2.0",
+        "drupal/admin_toolbar": "^3.6",
         "drupal/basecore": "^1.0",
         "drupal/bootstrap": "^3.35",
         "drupal/core-composer-scaffold": "^10.0",
@@ -25,6 +27,7 @@
         "drupal/gin": "^4.0",
         "drupal/jquery_ui": "^1.8",
         "drupal/paragraphs": "^1.18",
+        "drupal/webform": "^6.2",
         "drush/drush": "^12.5"
     },
     "conflict": {

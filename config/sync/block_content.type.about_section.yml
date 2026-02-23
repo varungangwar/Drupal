@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: about_section
 label: 'About Section'
-revision: 0
-description: ''
+revision: false
+description: 'Overview including introduction, mission, and key information about the company.'

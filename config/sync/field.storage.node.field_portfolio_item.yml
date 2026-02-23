@@ -1,0 +1,20 @@
+uuid: 48b517c3-902e-49c3-89b3-2a72981a2eeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_portfolio_item
+field_name: field_portfolio_item
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

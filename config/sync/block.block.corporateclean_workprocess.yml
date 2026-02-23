@@ -1,0 +1,25 @@
+uuid: 6784b565-e69d-4f9b-979f-6373a702e4ec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:service_card:e60d5a3a-3d96-4a92-b32b-a61e3d72f294'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: corporateclean_workprocess
+theme: corporateclean
+region: featured
+weight: 0
+provider: null
+plugin: 'block_content:e60d5a3a-3d96-4a92-b32b-a61e3d72f294'
+settings:
+  id: 'block_content:e60d5a3a-3d96-4a92-b32b-a61e3d72f294'
+  label: 'Work Process'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

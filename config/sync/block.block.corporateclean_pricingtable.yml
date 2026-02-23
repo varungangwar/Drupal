@@ -1,0 +1,25 @@
+uuid: a84dd58e-b44d-430c-a46a-eca4dfec228d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pricing_table:b84e7c04-2458-40ac-aeda-c95031ce5eaf'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: corporateclean_pricingtable
+theme: corporateclean
+region: featured_top
+weight: -9
+provider: null
+plugin: 'block_content:b84e7c04-2458-40ac-aeda-c95031ce5eaf'
+settings:
+  id: 'block_content:b84e7c04-2458-40ac-aeda-c95031ce5eaf'
+  label: 'Pricing Table'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

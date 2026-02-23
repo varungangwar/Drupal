@@ -1,0 +1,10 @@
+uuid: 2020f049-d113-43c7-8750-23ba12283323
+langcode: en
+status: true
+dependencies: {  }
+id: pricing_plan
+label: 'Pricing Plan'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph containing all the pricing options.'
+behavior_plugins: {  }

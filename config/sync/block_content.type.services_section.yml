@@ -5,4 +5,4 @@ dependencies: {  }
 id: services_section
 label: 'Services Section'
 revision: false
-description: null
+description: 'Displays a structured list of service cards showcasing the key offerings of the organization.'

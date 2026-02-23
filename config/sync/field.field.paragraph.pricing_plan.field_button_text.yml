@@ -1,0 +1,19 @@
+uuid: b8fdd284-b955-46b6-859a-12b17b360ea4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button_text
+    - paragraphs.paragraphs_type.pricing_plan
+id: paragraph.pricing_plan.field_button_text
+field_name: field_button_text
+entity_type: paragraph
+bundle: pricing_plan
+label: 'Button Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

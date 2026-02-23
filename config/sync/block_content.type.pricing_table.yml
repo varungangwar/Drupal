@@ -1,0 +1,8 @@
+uuid: 2ccc7052-e0e7-479d-856e-12f2a5863554
+langcode: en
+status: true
+dependencies: {  }
+id: pricing_table
+label: 'Pricing Table'
+revision: false
+description: 'all the prices are available below.'

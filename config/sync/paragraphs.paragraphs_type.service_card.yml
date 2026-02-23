@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies: {  }
 id: service_card
-label: 'Service Card'
+label: 'Primary Card'
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'Card having all the information of services that are available.'
 behavior_plugins: {  }

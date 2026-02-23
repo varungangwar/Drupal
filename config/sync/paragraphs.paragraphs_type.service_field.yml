@@ -6,5 +6,5 @@ id: service_field
 label: 'Service Field'
 icon_uuid: null
 icon_default: null
-description: ''
+description: 'Service section area containing all the service cards.'
 behavior_plugins: {  }

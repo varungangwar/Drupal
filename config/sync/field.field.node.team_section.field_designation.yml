@@ -1,0 +1,19 @@
+uuid: b21d60dc-73d9-4928-a22d-694f57362fa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designation
+    - node.type.team_section
+id: node.team_section.field_designation
+field_name: field_designation
+entity_type: node
+bundle: team_section
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

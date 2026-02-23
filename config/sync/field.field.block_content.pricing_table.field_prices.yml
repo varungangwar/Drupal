@@ -1,0 +1,40 @@
+uuid: ae083b0b-a2e8-45ca-9bef-3858bd4ee873
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_table
+    - field.storage.block_content.field_prices
+    - paragraphs.paragraphs_type.pricing_plan
+  module:
+    - entity_reference_revisions
+id: block_content.pricing_table.field_prices
+field_name: field_prices
+entity_type: block_content
+bundle: pricing_table
+label: Prices
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      pricing_plan: pricing_plan
+    negate: 0
+    target_bundles_drag_drop:
+      pricing_plan:
+        weight: 5
+        enabled: true
+      pricing_section:
+        weight: 6
+        enabled: false
+      service_card:
+        weight: 7
+        enabled: false
+      service_field:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

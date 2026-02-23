@@ -1,0 +1,19 @@
+uuid: 20e35e13-8cd2-4135-a0f9-e0fe76e733dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_plan_name
+    - paragraphs.paragraphs_type.pricing_plan
+id: paragraph.pricing_plan.field_plan_name
+field_name: field_plan_name
+entity_type: paragraph
+bundle: pricing_plan
+label: 'Plan Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

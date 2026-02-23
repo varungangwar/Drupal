@@ -5,12 +5,11 @@ dependencies:
   config:
     - block_content.type.about_section
     - field.field.block_content.about_section.body
-    - field.field.block_content.about_section.field_about_image
     - field.field.block_content.about_section.field_button_link
+    - field.field.block_content.about_section.field_image
     - field.field.block_content.about_section.field_section_title
     - field.field.block_content.about_section.field_subtitle
   module:
-    - image
     - link
     - text
 id: block_content.about_section.default
@@ -25,17 +24,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_about_image:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_button_link:
     type: link
     label: above
@@ -47,6 +35,15 @@ content:
       target: ''
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_section_title:
     type: string

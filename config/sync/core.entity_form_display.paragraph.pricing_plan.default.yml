@@ -1,0 +1,50 @@
+uuid: ed707ff9-1d25-484f-a746-c975ed45e391
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pricing_plan.field_button_text
+    - field.field.paragraph.pricing_plan.field_features
+    - field.field.paragraph.pricing_plan.field_plan_name
+    - field.field.paragraph.pricing_plan.field_price
+    - paragraphs.paragraphs_type.pricing_plan
+id: paragraph.pricing_plan.default
+targetEntityType: paragraph
+bundle: pricing_plan
+mode: default
+content:
+  field_button_text:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_features:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_plan_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_price:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
