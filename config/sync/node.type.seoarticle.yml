@@ -1,0 +1,18 @@
+uuid: 8078d32e-9809-49f5-9434-008ccf7b3047
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Article
+type: seoarticle
+description: 'SEO Optimized article content'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

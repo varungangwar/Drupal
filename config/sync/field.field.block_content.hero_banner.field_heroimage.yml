@@ -1,0 +1,29 @@
+uuid: 12375a24-d23b-44d2-9cd7-a688bd1ac0b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_banner
+    - field.storage.block_content.field_heroimage
+    - media.type.image
+id: block_content.hero_banner.field_heroimage
+field_name: field_heroimage
+entity_type: block_content
+bundle: hero_banner
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

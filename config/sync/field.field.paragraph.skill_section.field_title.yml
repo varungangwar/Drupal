@@ -1,0 +1,19 @@
+uuid: 3abf1836-5518-41a2-ab7c-e1510e7652dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.skill_section
+id: paragraph.skill_section.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: skill_section
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -26,7 +26,12 @@
         "drupal/corporateclean": "^1.0",
         "drupal/gin": "^4.0",
         "drupal/jquery_ui": "^1.8",
+        "drupal/metatag": "^2.2",
         "drupal/paragraphs": "^1.18",
+        "drupal/pathauto": "^1.14",
+        "drupal/redirect": "^1.12",
+        "drupal/schema_metatag": "^3.0",
+        "drupal/simple_sitemap": "^4.2",
         "drupal/webform": "^6.2",
         "drush/drush": "^12.5"
     },

@@ -1,0 +1,25 @@
+uuid: b54d4977-af7b-49f9-a6d0-b80aea54f284
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:our_skills:17ee9ded-9d71-4a68-8cdb-a72fb3a79994'
+  module:
+    - block_content
+  theme:
+    - corporateclean
+id: corporateclean_ourskills
+theme: corporateclean
+region: hero_first
+weight: -10
+provider: null
+plugin: 'block_content:17ee9ded-9d71-4a68-8cdb-a72fb3a79994'
+settings:
+  id: 'block_content:17ee9ded-9d71-4a68-8cdb-a72fb3a79994'
+  label: 'OUR SKILLS'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

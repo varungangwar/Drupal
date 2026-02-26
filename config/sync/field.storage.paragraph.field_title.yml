@@ -1,15 +1,17 @@
-uuid: 680e0049-36d6-41d8-8fcb-5af5967ed50a
+uuid: be1fe131-2786-4741-a3e4-1757811cc128
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_introduction
-field_name: field_introduction
-entity_type: node
-type: string_long
+    - paragraphs
+id: paragraph.field_title
+field_name: field_title
+entity_type: paragraph
+type: string
 settings:
+  max_length: 255
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

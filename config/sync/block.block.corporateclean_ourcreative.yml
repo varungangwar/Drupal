@@ -11,7 +11,7 @@ dependencies:
 id: corporateclean_ourcreative
 theme: corporateclean
 region: hero_first
-weight: 0
+weight: -11
 provider: null
 plugin: 'block_content:4e8de7f9-a234-4842-95d7-5caa2d044f24'
 settings:

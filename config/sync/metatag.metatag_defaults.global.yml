@@ -1,0 +1,12 @@
+uuid: c2e77415-87fd-4950-8b20-1d69eedb1a65
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  description: 'Welcome to Modern Creative — easy and new things to explore'
+  title: '[current-page:title] | [site:name]'

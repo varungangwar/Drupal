@@ -1,0 +1,8 @@
+uuid: f05ef153-ad0c-418a-ae74-9324aa904d6e
+langcode: en
+status: true
+dependencies: {  }
+id: our_skills
+label: 'Our Skills'
+revision: false
+description: 'Block having all the Skills used in the company'

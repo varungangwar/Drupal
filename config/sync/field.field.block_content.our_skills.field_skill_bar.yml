@@ -1,0 +1,40 @@
+uuid: 7a23add1-bbc9-4561-82f4-509f7edf4112
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_skills
+    - field.storage.block_content.field_skill_bar
+    - paragraphs.paragraphs_type.skill_section
+  module:
+    - entity_reference_revisions
+id: block_content.our_skills.field_skill_bar
+field_name: field_skill_bar
+entity_type: block_content
+bundle: our_skills
+label: 'Skill Bar'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      skill_section: skill_section
+    negate: 0
+    target_bundles_drag_drop:
+      pricing_plan:
+        weight: 5
+        enabled: false
+      service_card:
+        weight: 6
+        enabled: false
+      service_field:
+        weight: 7
+        enabled: false
+      skill_section:
+        weight: 8
+        enabled: true
+field_type: entity_reference_revisions

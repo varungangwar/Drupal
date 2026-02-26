@@ -1,0 +1,10 @@
+uuid: 5a671663-fa68-4a82-9011-1a00d2bf7acb
+langcode: en
+status: true
+dependencies: {  }
+id: skill_section
+label: 'Skill Section'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

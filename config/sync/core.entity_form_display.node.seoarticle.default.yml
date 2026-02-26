@@ -1,34 +1,36 @@
-uuid: 38ef5745-895c-4bab-a49b-ffe57ce584b6
+uuid: 86389ffb-77b5-476c-a8de-f0a54ffa9fcf
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.team_section.field_designation
-    - field.field.node.team_section.field_image
-    - field.field.node.team_section.field_introduction
+    - field.field.node.seoarticle.body
+    - field.field.node.seoarticle.field_image
     - image.style.thumbnail
-    - node.type.team_section
+    - node.type.seoarticle
   module:
     - image
     - path
-id: node.team_section.default
+    - text
+id: node.seoarticle.default
 targetEntityType: node
-bundle: team_section
+bundle: seoarticle
 mode: default
 content:
+  body:
+    type: text_textarea_with_summary
+    weight: 131
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_designation:
-    type: string_textfield
-    weight: 122
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   field_image:
     type: image_image
@@ -37,14 +39,6 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
-  field_introduction:
-    type: string_textarea
-    weight: 123
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
     third_party_settings: {  }
   path:
     type: path
@@ -58,6 +52,16 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap_index_now:
+    weight: 130
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
@@ -90,5 +94,10 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }

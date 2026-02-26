@@ -14,7 +14,7 @@ provider: null
 plugin: addtoany_follow_block
 settings:
   id: addtoany_follow_block
-  label: 'AddToAny follow buttons'
+  label: 'OUR SOCIAL HANDLES'
   label_display: visible
   provider: addtoany
   buttons_size: null

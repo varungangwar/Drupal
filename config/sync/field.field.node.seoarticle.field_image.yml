@@ -1,17 +1,17 @@
-uuid: eee689b5-7c50-4bdd-b2ab-4b42056189e8
+uuid: 1ae4a7ea-2958-4e57-b878-ece119cb7774
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.hero_banner
-    - field.storage.block_content.field_hero_image
+    - field.storage.node.field_image
+    - node.type.seoarticle
   module:
     - image
-id: block_content.hero_banner.field_hero_image
-field_name: field_hero_image
-entity_type: block_content
-bundle: hero_banner
-label: 'Hero Image'
+id: node.seoarticle.field_image
+field_name: field_image
+entity_type: node
+bundle: seoarticle
+label: Image
 description: ''
 required: false
 translatable: false

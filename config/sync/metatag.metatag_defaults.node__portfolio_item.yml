@@ -1,0 +1,11 @@
+uuid: 956030eb-5316-40bc-9e13-0c082c4980ca
+langcode: en
+status: true
+dependencies: {  }
+id: node__portfolio_item
+label: 'Content: Portfolio Item'
+tags:
+  abstract: 'Explore my professional portfolio featuring real-world full-stack development and DevOps projects built using Java, Spring Boot, Node.js, Docker, CI/CD, and modern frontend technologies. This section showcases scalable backend systems, cloud-ready deployments, API development, infrastructure automation, and performance-optimized web applications designed with industry best practices.'
+  description: 'all the categories that are available by the company.'
+  keywords: 'full stack developer portfolio, java developer projects, spring boot applications, node.js backend projects, devops projects, dockerized applications, ci cd pipeline implementation, cloud deployment projects, backend api development, mongodb projects, mysql database design, scalable web applications, infrastructure as code, jenkins automation, github ci cd, containerized applications, microservices architecture, rest api development, frontend and backend integration, production ready applications, software engineering portfolio, modern web development projects'
+  title: Portfolio-category

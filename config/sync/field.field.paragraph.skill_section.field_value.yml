@@ -1,0 +1,23 @@
+uuid: 8d5ed595-4f7c-4547-915e-680f3bcbd5a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_value
+    - paragraphs.paragraphs_type.skill_section
+id: paragraph.skill_section.field_value
+field_name: field_value
+entity_type: paragraph
+bundle: skill_section
+label: Value
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

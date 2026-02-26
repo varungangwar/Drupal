@@ -1,28 +1,27 @@
-uuid: 47d1ae56-57ba-4910-a118-80f7de24cbfb
+uuid: 2c45adee-94ab-4c39-909b-7bf78cde76e0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.team_section.field_designation
-    - field.field.node.team_section.field_image
-    - field.field.node.team_section.field_introduction
+    - field.field.node.seoarticle.body
+    - field.field.node.seoarticle.field_image
     - image.style.wide
-    - node.type.team_section
+    - node.type.seoarticle
   module:
     - image
+    - text
     - user
-id: node.team_section.default
+id: node.seoarticle.default
 targetEntityType: node
-bundle: team_section
+bundle: seoarticle
 mode: default
 content:
-  field_designation:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
-    weight: 102
+    weight: 101
     region: content
   field_image:
     type: image
@@ -34,13 +33,6 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: -1
-    region: content
-  field_introduction:
-    type: basic_string
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 103
     region: content
   links:
     settings: {  }

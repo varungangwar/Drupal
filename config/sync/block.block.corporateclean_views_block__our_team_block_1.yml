@@ -1,4 +1,4 @@
-uuid: 3cb17fd2-802d-4618-ba0e-f85e98d0007b
+uuid: 3d764753-1838-456f-ba76-2780ef384957
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - corporateclean
 id: corporateclean_views_block__our_team_block_1
 theme: corporateclean
-region: content_bottom_first
+region: highlighted_top
 weight: 0
 provider: null
 plugin: 'views_block:our_team-block_1'
